@@ -23,6 +23,6 @@ Reference-style:
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
 ## Link Example
-[CodeTime](https://www.google.com)
+[Mara Bespoke Office Spaces](https://www.marabespokeofficespaces.com)
 
 
