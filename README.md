@@ -25,4 +25,8 @@ Reference-style:
 ## Link Example
 [Mara Bespoke Office Spaces](https://www.marabespokeofficespaces.com)
 
-
+We offer a variety of services on our Bespoke Packages
+1. Presidential Suite
+2. King Suite
+3. Queen Suite
+4. Prince Suite
