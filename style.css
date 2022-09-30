@@ -1,0 +1,168 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-page
+{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image.jpg);
+    background-position:center;
+    background-size:cover;
+    position:absolute;
+}
+.navbar
+{
+    display: flex;
+    align-items:center;
+    padding: 16px;
+    padding-left: 45px;
+    padding-right: 25px;
+    padding-top:30px;
+}
+nav
+{
+    flex: 0.5;
+    text-align:right;
+}
+nav ul
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 60px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    font-family: sans-serif;
+
+}
+nav ul li button
+{
+    font-size: 20px;
+    color:whitesmoke;
+    outline: none;
+    background: turquoise;
+    cursor: pointer;
+    font-family: sans-serif
+}
+nav ul li button:hover
+{
+    color: aqua;
+}
+a
+{
+    text text-decoration: none;
+    color: palevioletred;
+    font: size 26px;
+}
+#login-form
+{
+    display: none;
+}
+.form-box
+{
+    width:300px;
+    height:400px;
+    position:relative;
+    margin:3% auto;
+    background:rgba(0,0,0,0.2);
+    padding:10px;
+    overflow:hidden;
+
+}
+.button-box
+{
+    width:200px;
+    margin:35px;
+    position:relative;
+    box-shadow:0 0 15px 5px;
+    border-radius:25px;
+}
+.toggle-btn
+{
+    padding:7px 25px;
+    cursor:pointer;
+    background-color: aliceblue;
+    border:0;
+    position:relative;
+}
+#btn
+{
+    top:0;
+    left:0;
+    position:absolute;
+    width: 100px;
+    height: 100%;
+    background-color: beige;
+    border: radius 30px;
+    transition:.4s;
+}
+.input-group-register
+{
+    top:100px;
+    position:absolute;
+    width:120px;
+    transition:4s
+}
+.input-field
+{
+    width: 100%;
+    padding: 10px 0;
+    margin:5px 0;
+    border-left:0;
+    border-top:0;
+    border-top: 0;
+    border-bottom: 1px solid;
+    outline:none;
+    background-color: blueviolet;
+
+}
+.submit-btn
+{
+    width:70%;
+    padding:10px 20px;
+    cursor:pointer;
+    display: block;
+    margin: auto;
+    background-color: white;
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box
+{
+    margin: 30px 10px 32px;
+}
+span
+{
+    color: blanchedalmond;
+    font-size: 12px;
+    bottom: 60px;
+    position: absolute;
+}
+#login
+{
+    left: 50px;
+}
+#login input
+{
+    color: white;
+    font-size: 10px;
+}
+#register
+{
+    left: 400;
+}
+#register input
+{
+    color: whitesmoke;
+    font-size: 15;
+}
