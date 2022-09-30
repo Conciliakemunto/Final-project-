@@ -1,39 +1,80 @@
-<html>
-  <head>plp final project with python                       
-    <title>booking office spaces </title>
-    <link> rel="style sheet"type="text/css"  href="style, css">
-  </head> 
-  
-  <body>contact and prefrence  
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>MARA BESBOKE OFFICES</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="full-page"
+            <div class="navbar">
+                <a href="home.html">WELCOME TO BESBOKE OFFICES!</a>
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href='#'>home</a></li>
+                    <li><a href='#'>about us</a></li>
+                    <li><a href='#'>contact</a></li>
+                    <li><a href='#'>services</a></li>
+                    <li><button class='loginbtn'
+                    onclick="document.getElementById('login-form').style.display='block'"
+                    style="width:auto;">login</button>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+            <div id="'login-form"class='login-page'>
+                <div class="form-box">
+                    <div id="btn"></div>
+                    <button
+                    type="button"onclick='login()'class='toggle-btn'>log in</button>
+                    <button
+                    type="button"onclick='register()'class='toggle-btn'>register</button>
+                </div>
+                <form id="login"class='input-group-login'>
+                    <input type="text"class='input field'placeholder="Email Id"required>
+                    <input type="checkbox"class='checkbox'><span>Remember password</span>
+                    <button type="submit"class='submit-btn'>log in</button>
+                </form>
+                <form id="'register"class='input-group-register'>
+                    <input type='text'class='input field'placeholder='First Name'required>
+                    <input type="text"class='input field'placeholder='Last Name'required>
+                    <input type="email"class='input field'placeholder='Email Id'required>
+                    <input type="password"class='input field'placeholder='password'required>
+                    <input type="password"class='input field'placeholder='confirm password'>
+                    <input type="checkbox"class='check-box'><span>I agree to the terms and conditions</span>
+                    <button type="submit"class='submit-btn'>Register</button>
+                </form>
+            </div>
+        </div>
+        <script>
+            var x=document.getElementById('login');
+            var y=document.getElementById('register');
+            var y=document.getElementById(btn);
+            {
+                x.style.left='400px';
+                y.style.left='50px';
+                z.style.left='100px';
+            }
+            function login()
+            {
+                x.style.left='40px';
+                y.style.left='400px';
+                z.style.left='0px'
 
-        < div>office "<contact-title> bespoke office space </contact-title>
-        p 
-        <h1>say hello</h1>
-        <h2> we are alays ready to serve you </h2>
-        <h3> say your name and what you  want to know </h3>
-        p2
-        <hi> bespoke office spaces </hi>
-        <h2>bespokeofficespace@gmail.com</h2>
-        <h3> 0713243556</h3>
-        <h4> po0 box 1122 -00400 nairobi </h4>
-        p3
-        
-        <h1>  open space </h1>
-        <h2> closed spaces  </h2>
-        <h3> electronic fitted </h3>
-        <h4>  desktop only       </h4>
-    </div>
-    <div> office =" contact -form">
-        <form id ="contact -form  method " method ="post"action ="">
-        <input> name="bespoke" type ="booking"Office 
-        </form>
-    </div>
-         
-  <
+            }
+        </script>
+        <script>
+            var modal=document.getElementById('login-form');
+            window.onclick=function(event)
+            {
+                if (event.target==modal)
+                {
+                    modal.style.display='none';
+                }
+            }
 
+        </script>
+    </body>
 
-
-
-
-  </body>
- </ html>
+</html>
