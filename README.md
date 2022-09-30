@@ -7,8 +7,7 @@ Final Project
 * Authors are: 
   1. Concilia Kemunto
   2. Rose Wanjiru
-  3. Christian Logova
-  4. Shelvin Mulefu
+  3. Shelvin Mulefu
 
 * It is an app that solves marketing problems.
 
@@ -28,6 +27,8 @@ We offer a variety of services on our Bespoke Packages
 2. King Suite
 3. Queen Suite
 4. Prince Suite
+
+Welcome to a divine lounge area with state of the art amenities and top notch services in the industry.
 
 ## Link
 [Mara Bespoke Office Spaces](https://www.marabespokeofficespaces.com)
