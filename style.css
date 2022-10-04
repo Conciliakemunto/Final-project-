@@ -1,5 +1,7 @@
 body {
-    font-family: Droid Sans, Arial;
+    font-family: Helvetica Neue Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
     font-size: 15px;
     line-height: 1.6em;
     background-color: white;
@@ -7,10 +9,10 @@ body {
 header {
     background-color: black;
     background-image: url("images/hero.jpg");
-    background-size: 100%;
+    background-size: 60%;
     background-position: center;
-    height: 300px;
-    padding: 100px;
+    height: 400px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -27,8 +29,8 @@ header .logo a {
     background-repeat: no-repeat;
     display: inline-block;
     height: 80px;
-    position: relative;
-    text-indent: -999999px;
+    position:relative;
+    text-indent: -9999999px;
     top: -30px;
     width: 300px;
 }
