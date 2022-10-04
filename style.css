@@ -26,6 +26,10 @@ header a {
     margin-top: 60px;
 }
 
+header .mobile {
+    display: none;
+}
+
 header .logo a {
     background-image: url("images/logo.png");
     background-size: 300px;
@@ -38,6 +42,30 @@ header .logo a {
     width: 300px;
 }
 
+/* RESPONSIVE RULES */
+@media screen and (max-width: 715px) {
+    header{
+        height: 250px;
+        background-position: 0 -40px;  
+    }
+    header.mobile{
+        display: inline-block;
+    }
+
+    header .desktop{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header{
+        height: 200px; 
+        background-position: 0 -0px;
+}
+    }
+    
+
+
 /* FEATURES */
 
 .features {
@@ -46,6 +74,7 @@ header .logo a {
     padding: 20px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .features figure {
@@ -63,6 +92,15 @@ header .logo a {
     width: 400px;
 
 }
+/* RESPONSIVE RULES */
+
+@media screen and (max-width: 715px) {
+    .features {
+        display: block;
+    }
+}
+
+/* FOOTER */
 
 footer {
     background: black;
@@ -72,15 +110,4 @@ footer {
     text-align: center;
 }
 
-@media  screen and (max-width: 800px) {
-    .features {
-        background: pink;
-    }
-}
-
-@media  screen and (max-width: 400px) {
-    .features {
-        background: red;
-    }
-}
 
