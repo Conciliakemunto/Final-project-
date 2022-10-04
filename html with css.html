@@ -1,83 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <title>Mara Bespoke Office Spaces</title>
         <link rel="stylesheet" href="style.css">
+        <title>Mara Bespoke Office Spaces</title>
+        
     </head>
     <body>
-      <div class="full-page"></div>
-    <div class="full-page"></div>
-        <div class="navbar">
-            <a href="home.html">WELCOME TO MARA BESBOKE OFFICE SPACES</a>
-        </div>
-        <nav>
-            <ul id="menuitems">
-                <li><a href='#'>home</a></li>
-                <li><a href='#'>about us</a></li>
-                <li><a href='#'>contact</a></li>
-                <li><a href='#'>services</a></li>
-                <li><button class='loginbtn'
-                onclick="document.getElementById('login-form').style.display='block'"
-                style="width:auto;">login</button>
-                </li>
-            </ul>
-        </nav>
-        </div>
-        <div id="'login-form"class='login-page'>
-            <div class="form-box">
-                <div id="btn"></div>
-                <button
-                type="button"onclick='login()'class='toggle-btn'>log in</button>
-                <button
-                type="button"onclick='register()'class='toggle-btn'>register</button>
-            </div>
-            <form id="login"class='input-group-login'>
-                <input type="text"class='input field'placeholder="Email Id"required>
-                <input type="checkbox"class='checkbox'><span>Remember password</span>
-                <button type="submit"class='submit-btn'>log in</button>
-            </form>
-            <form id="'register"class='input-group-register'>
-                <input type='text'class='input field'placeholder='First Name'required>
-                <input type="text"class='input field'placeholder='Last Name'required>
-                <input type="email"class='input field'placeholder='Email Id'required>
-                <input type="password"class='input field'placeholder='password'required>
-                <input type="password"class='input field'placeholder='confirm password'>
-                <input type="checkbox"class='check-box'><span>I agree to the terms and conditions</span>
-                <button type="submit"class='submit-btn'>Register</button>
-            </form>
-        </div>
-    </div>
-    </body>
-    
-    <script>
-        var x=document.getElementById('login');
-        var y=document.getElementById('register');
-        var y=document.getElementById(btn);
-        {
-            x.style.left='100px';
-            y.style.left='50px';
-            z.style.left='100px';
-        }
-        function login()
-        {
-            x.style.left='40px';
-            y.style.left='400px';
-            z.style.left='0px'
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li class="logo"><a href="index.html"></a>Mara Bespoke Office Spaces logo</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="features">
+            <figure>
+                <img src="images/comfortableworkarea.jpg" alt="comfortable work area">
+                <figcaption>Comfortable Work Area</figcaption>
 
-        }
-    </script>
-    <script>
-        var modal=document.getElementById('login-form');
-        window.onclick=function(event)
-        {
-            if (event.target==modal)
-            {
-                modal.style.display='none';
-            }
-        }
+            </figure>
+            <figure>
+                <img src="images/amazingofficespace.jpg" alt="amazing office space">
+                <figcaption>Amazing Office Spaces</figcaption>
 
-    </script>
+            </figure>
+            <figure>
+                <img src="images/greatambience.jpg" alt="great ambience">
+                <figcaption>Great Ambience</figcaption>
+
+            </figure>
+           
+        </section>
+
+        <footer>
+            Kimathi Street Nairobi, Kenya   
+        </footer>
     </body>
 
 </html>
