@@ -3,16 +3,16 @@ header {
     background-image: url("images/hero.jpg");
     background-size: 100%;
     background-position: center;
-    height: 400px;
-    padding: 20px;
+    height: 300px;
+    padding: 100px;
     text-align: center;
 }
 
 header a {
-    color: white;
+    color: black;
     text-decoration: none;
     text-transform: uppercase;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 header .logo a {
