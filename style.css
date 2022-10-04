@@ -6,6 +6,9 @@ body {
     line-height: 1.6em;
     background-color: white;
 }
+
+/* HEADER */
+
 header {
     background-color: black;
     background-image: url("images/hero.jpg");
@@ -35,6 +38,8 @@ header .logo a {
     width: 300px;
 }
 
+/* FEATURES */
+
 .features {
     background: white;
     color: gray;
@@ -59,17 +64,6 @@ header .logo a {
 
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
 footer {
     background: black;
     color: grey;
@@ -77,3 +71,16 @@ footer {
     padding: 20px 20px;
     text-align: center;
 }
+
+@media  screen and (max-width: 800px) {
+    .features {
+        background: pink;
+    }
+}
+
+@media  screen and (max-width: 400px) {
+    .features {
+        background: red;
+    }
+}
+
