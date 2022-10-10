@@ -26,10 +26,6 @@ header a {
     margin-top: 60px;
 }
 
-header .mobile {
-    display: none;
-}
-
 header .logo a {
     background-image: url("images/logo.png");
     background-size: 300px;
@@ -41,29 +37,6 @@ header .logo a {
     top: -30px;
     width: 300px;
 }
-
-/* RESPONSIVE RULES */
-@media screen and (max-width: 715px) {
-    header{
-        height: 250px;
-        background-position: 0 -40px;  
-    }
-    header.mobile{
-        display: inline-block;
-    }
-
-    header .desktop{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    header{
-        height: 200px; 
-        background-position: 0 -0px;
-}
-    }
-    
 
 
 /* FEATURES */
@@ -91,13 +64,6 @@ header .logo a {
     box-shadow: grey 0 0 10px;
     width: 400px;
 
-}
-/* RESPONSIVE RULES */
-
-@media screen and (max-width: 715px) {
-    .features {
-        display: block;
-    }
 }
 
 /* FOOTER */
